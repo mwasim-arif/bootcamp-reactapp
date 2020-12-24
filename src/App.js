@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import Alpha from './alpha.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hellow World</h1>
+      <Alpha empireName='British Empire' />
+      <hr />
+      <Alpha empireName='Muongol Empire' />
+      <hr />
+      <Alpha empireName='Russian Empire' />
+      <hr />
+      <Alpha empireName='Spanish Empire' />
     </div>
   );
 }
